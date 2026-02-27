@@ -6,10 +6,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
-
-# 한글 폰트 설정 (Mac 환경 고려)
-plt.rcParams['font.family'] = 'AppleGothic'
-plt.rcParams['axes.unicode_minus'] = False
+import koreanize_matplotlib
 
 # 페이지 설정
 st.set_page_config(
